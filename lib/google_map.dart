@@ -31,7 +31,7 @@ loadData(){
         Marker(markerId: MarkerId('2'),
             position: LatLng(value.latitude, value.longitude),
             infoWindow: InfoWindow(
-                title: 'My current location'
+                 title: 'My current location ${LatLng(value.latitude, value.longitude)}',
             )
         )
     );
